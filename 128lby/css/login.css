@@ -1,0 +1,100 @@
+/*/*login.css*/
+	@charset "utf-8";
+/*========全局CSS定义========*/
+	body {
+	margin:0;
+	padding:0;
+	font:normal 100 12px tahoma, Arial, "宋体";
+	position:relative;
+	}
+	
+	img, button{ 
+		border:none; 
+	}
+	h1, h2, h3, h4, h5, h6, strong{
+		font-weight:800;
+		font-size:12px;
+		vertical-align:middle
+	}
+	table{
+		border-collapse:collapse;
+	}
+	input,button{
+		font-style:normal;
+	}
+	a {
+		text-decoration:none;
+		color:#000;
+	}
+	a:hover {
+		text-decoration:underline;
+		color:#00F
+	}
+	/*========登录口页面样式start========*/
+	.login_bg{
+		background: #fff url(../images/login_bg.jpg) repeat-x left top;
+	}
+	.login_main{
+		width: 891px;
+		margin: 0 auto;
+	}
+	.login_logo{
+	width: 891px;
+	background: url(../images/login_zf.jpg) no-repeat right top;
+	margin-top: 22px;
+	text-align: left;
+	min-height: 90px;
+	height: 90px;
+	}
+	.login_logo h2,.login_logo h3{
+	margin-top:20px;
+	float:left;
+	}
+	#login_left{
+		float: left;
+		height: 340px;
+		width: 426px;
+		background: url(../images/login_left.jpg) no-repeat;
+		
+	}
+	#login_left .login_pic{
+	margin: 29px 0 0 2px;
+	}
+	#logo_right{
+		float: left;
+		width: 100px;
+		margin: 10px 0px 0px 0px;
+	}
+	.denglu{
+		width: 400px;
+		padding: 30px ;
+		line-height: 40px;
+		margin: -300px  450px;
+		position: absolute;
+	}
+	.denglu input{
+		width: 130px;
+		height: 20px;
+	}
+	.button{
+		width: 200px auto;
+		margin: 0px 100px;
+		height: 30px;
+	}
+	.button input{
+		width: 0px auto;
+		height: 20px;
+	}
+	.denglu span{
+		display: none;
+		color: red;
+	}
+	.back{
+		margin: 30px 0px 0px 0px;
+		float: left;
+	}
+	.register{
+		margin: 15px 140px;
+		font:normal 20px tahoma, Arial, "黑体";
+		float: left;
+	}

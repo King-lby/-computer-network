@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>河南财经政法大学数字化信息门户</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <script type="text/javascript" src="js/login.js"></script>  
+</head>
+<body>
+      <div id="container" class="login_main">
+        <div class="login_logo">
+            <h2>
+                <a href="#"><img src="images/logo_school.png" />
+                </a>
+            </h2>
+            <h3>
+                <a href="#"><img src="images/logo_rz.png" />
+                </a>
+            </h3>
+        </div>
+        <div id="login_left" , style="z-index: -1">
+            <img class="login_pic" src="images/login_pic.png" />
+        </div> 
+        <div id="login_right" , style="z-index: 5">
+            <img src="images/login_right.jpg"  />
+            <form name="form1" action="#" method="post">
+                <div class="denglu" , style="z-index: 10">
+                    用户名：<input type="text" name="username" id="username" onblur="f1()" placeholder="手机号/账号"; style="font-size: 5pt;"><span id="one">此处不能为空！</span><br>
+                    密码：<input type="password" name="psw1" id="psw1" placeholder="密码   (忘记密码,请重新注册)" style="font-size: 5pt;"><br>
+                    确认密码：<input type="password" name="psw2" id="psw2" onblur="f2();" placeholder="请输入同样的密码" style="font-size: 5pt;">
+                    <span id="two">两次密码不一致，请重新输入！</span><br>
+                    <input type="submit"  style="width: 40px;" value="提交">
+                    <input type="reset" style="width: 40px ;" value="取消">
+                    <div class="back">
+                        <a href="index.html"><h5>back</h5></a>
+                    </div>
+                    <div class="register">
+                        <a href="register.html">注册</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

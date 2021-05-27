@@ -1,0 +1,65 @@
+/*学校领导.css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+	body {
+	    margin: 0px;
+	    font-size: 12px;
+	    background: url(../images/bg2.jpg) no-repeat center top;
+	    background-color: #FFF8E6 ;
+	    line-height: 1.5;
+    }
+    #fontleft{
+    	margin:20px 320px;
+    	height: 95px;
+    	font-weight: bold;
+    }
+    #fontright{
+    	margin: -125px  500px;
+    	font-size: 35px;
+    	float: right;
+    }
+	#main{
+		margin: 130px auto;
+		width:978px;
+		height: 833.583px;
+		border:1px red solid;
+		background: url(../images/dang.jpg) no-repeat ;
+	}
+	#border{
+		margin: -4px 0.3px;
+		width:978px;
+		height: 800px;
+		background-color: white;
+	}
+	#border .zoom{
+		width: 780px;
+		margin: 0px 100px;
+		line-height: 80px;
+		font-color:#ff0000;
+		font-size: 24px;
+		font-family: "宋体";
+	    font-weight: bold;
+	    text-align: center;
+	    border-bottom: 2px  #cccccc  solid;
+    }
+    #xia{
+    	margin: 0px auto;
+    }
+	#bian{
+		margin: 12px -1px;
+		height: 15px;
+		width: 980px;
+		background-color: #ff0000;
+	}
+	#foot{
+		padding: 10px;
+		width: 980px;
+		height: 100px;
+		text-align:center;
+		background:url(../images/bg.gif) no-repeat right top;
+	}

@@ -1,0 +1,523 @@
+/*index.css*/
+  *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body,div,ul,li{
+        padding:0;
+        margin: 0;
+        list-style: none;
+    }
+    #top{   
+        width: 100% auto;
+        height: 130px;
+        border: 0px solid;
+        background: #ad181e;
+    }
+    #top .container{
+        height: 50px;
+        width: 600px;
+        margin: 40px  -130px;
+        float: right;
+    }
+    #top .parent{
+        position: relative;
+    }
+    #top .search{
+        width: 200px;
+        height: 35px;
+        border: 1px solid #FDEEF4;
+        padding-left: 15px;
+        position: absolute;
+    }
+    #top .btn {
+        height: 40px;
+        width: 50px;
+        margin: -2px 0px 0px 216px;
+        background: url(../images/sousuo.jpg) no-repeat 0px;
+        border: none;
+    }
+    /*菜单导航栏*/
+    #header{
+        padding-top: 8px;
+        text-align: center;
+        height: 46px;
+        background: #FDEEF4;
+    }
+     .menuDiv { 
+        border: 0px solid #FDEEF4; 
+        overflow: hidden; 
+        display:inline-block;
+    } 
+    .menuDiv a {
+        text-decoration: none;
+    }
+    .menuDiv ul , .menuDiv li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: left;
+        text-decoration: none;
+    } 
+    .menuDiv  ul  li  ul {
+        position: absolute;
+        display: none;
+    }
+
+    /* 设置二级菜单的li的样式 */
+    .menuDiv  ul  li  ul  li {
+        float: none;
+    }
+  
+    /* 鼠标放在一级菜单上，显示二级菜单 */
+    .menuDiv  ul li:hover ul {
+        display: block;
+    }
+
+    /* 一级菜单 */
+    .menuDiv  ul  li  a {
+        width: 127px;
+        line-height: 40px;
+        color: black;
+        background-color: #FDEEF4;
+        text-align: center;
+        border-left: 0px solid ;
+        display: block;
+    }
+    
+    /* 在一级菜单中，第一个不设置左边框 */
+    .menuDiv  ul  li:first-child  a {
+        border-left: none;
+    }
+
+    /* 在一级菜单中，鼠标放上去的样式 */
+    .menuDiv  ul  li  a:hover {
+        color: black;
+        background-color: #FDEEF4;
+    }
+
+    /* 二级菜单 */
+    .menuDiv  ul  li  ul  li  a {
+        width: 140px;
+        line-height: 60px;
+        color: black;
+        background-color: #FDEEF4;
+        text-align: center;
+        border: 0px solid #FDEEF4;
+        border-top: none;
+        display: block;
+    }
+    
+    .menuDiv  ul  li  ul  li:first-child > a {
+        border-top: 1px solid ##FDEEF4;
+    }
+    
+    .menuDiv  ul  li  ul  li  a:hover {
+        color: black;
+        background-color: #FDEEF4;
+    }
+
+    #banner{
+        width: 1280px;
+        height: 470px;       
+        margin:0 auto;
+        text-align:center;
+        position: relative;
+    }
+    #banner .show{
+        display: inline-block;
+    }
+    #banner .hide{
+        display: none;
+    }
+    #banner img{
+        width: 1280px;
+        height: 470px;       
+    }
+    #banner ul{
+        width:200px;
+        height:20px;
+        /*background: red;*/
+        position: absolute;
+        bottom:0px;
+        right:20px;
+    }
+    #banner ul .one{
+        width:20px;
+        height:20px;
+        line-height: 20px;
+        text-align: center;
+        float:left;
+        background: #fff;
+        color:#ff7101;
+    }
+    #banner ul .two{
+        width:30px;
+        height:20px;
+        line-height: 20px;
+        text-align: center;
+        float:left;
+        background: #000000;
+        color:#fff; 
+    }
+    h1, h2, h3, h4, h5, h6 p{
+        font-weight: normal;  
+    }
+    #neckall{
+        background: #f2f2f2;
+        height: 490px;
+        width:100%;
+    }  
+    #neck {
+        background: #f2f2f2;
+        margin:0 auto; 
+        width:1280px;
+        height: 490px;
+    }
+    #neck .left{
+        background: #f2f2f2;
+        width: 430px;
+        height: 490px;
+        margin-right:30px;
+        padding:0px; 
+        float: left; 
+    }
+    #neck .mid{
+        background: #f2f2f2;
+        width: 430px;
+        height: 490px;
+        margin-right:30px;
+        padding:0px; 
+        float: left; 
+    }
+    #neck .right{
+        background-color:white;
+        width: 360px;
+        margin:0px; 
+        height: 490px;
+        float: left; 
+        box-shadow:-2px 0px 5px 0px #000;
+    }
+    .no {
+        width: 330px;
+        height: 10px;
+    }
+    .noleft{
+        
+        height: 6px;  
+    }
+    .noleft span.notop {
+        font-family: "Microsoft Yahei", sans-serif;
+        margin: 120px 25px 0px;
+        padding: 10px 0px 10px 0px;
+        color: #fff;
+        width: 70px;
+        font-size: 30px;
+        background: #8c1515;
+        line-height: 30px; 
+    }
+    .noleft span.nobottom {
+        font-family: "Microsoft Yahei", sans-serif;
+        margin:0px 25px 15px;        
+        padding: 0px 5px 10px 10px;
+        color: #fff;
+        width: 55px;
+        font-size: 12px;
+        background: #8c1515;
+        line-height: 3px;
+    }
+    .noleft span {
+        display: block;
+        text-align: center;
+    }
+    .noright {
+        width: 380px;
+        float: left;
+        margin: 0px 30px 30px 120px;
+        line-height: 21px;
+        color: #666666;
+    }
+    .noright h3 {
+        padding-bottom: 14px;
+    }
+    .notitle {
+        margin: 0px auto;
+        font-size: 12px;
+        background: url(../images/img01.png) no-repeat;
+        padding-left: 25px;
+        height: 30px;
+    }
+    .add {
+        margin: 0px auto;
+        font-size: 12px;
+        background: url(../images/img02.png) no-repeat;
+        padding-left: 25px;
+        height: 30px;
+    }
+    .left h2 , .mid h2{
+        margin: 50px 0px 30px;
+        height: 20px;
+        padding-top: 2px;
+        letter-spacing: 2px;  
+        float: left;     
+    }
+    .right h2{
+        margin: 50px 0px 30px 30px;
+        height: 20px;
+        padding-top: 2px;
+        letter-spacing: 2px;  
+        float: left;     
+    }
+    .left p , .mid p {
+        margin: 55px 0px 3px;
+        padding:3px 20px;
+        border:1px  solid;
+        border-color: #E5E4E2;
+        display: inline-block;
+        float: right;
+    }
+    .right p{
+        margin: 55px 20px 3px 30px;
+        padding:3px 20px;
+        border:1px  solid;
+        border-color: #E5E4E2;
+        display: inline-block;
+        float: right;
+    }
+     .left h2 span , .mid h2 span , .right h2 span{
+        color:#a8151d;
+        padding-bottom: 8px;
+        border-bottom:#a8151d 3px solid;
+        text-decoration:none;
+    }
+    #neck .left ul ,#neck .mid ul{
+        width:1280px; 
+        padding:0px;
+        margin:10px 0px 10px -10px; 
+        float: left;  
+    }
+    #neck .left li {
+        margin:0px;
+        border-bottom:1px  solid #E5E4E2;
+        list-style-type:none;
+        width:420px; 
+        text-align:left;
+        padding-top: 50px; 
+        padding:10px;
+    }
+    #neck .mid li{
+        margin:0px;
+        border-bottom:1px solid #E5E4E2;
+        list-style-type:none;
+        width:430px; 
+        text-align:left;
+        padding-top: 50px; 
+        padding:10px;
+    }
+    #neck ul li a{
+        text-decoration: none;    
+    }
+   
+    a:link ,a:visited{    
+        color: #333;
+        text-decoration:none;
+        outline: none;
+     }
+    #part{
+        width: 1280 auto;
+        height: 430px;
+    }
+    #part1{
+        height: 30px;
+        width: 100% auto;
+        background: url(../images/xian.jpg) no-repeat center;/*100px为左右两边距*/
+    }
+    #outer {
+        width: 1280px;
+        margin: 50px auto;
+        color: #999999;
+    }
+    /*校园动态的设置*/
+    #tab {      
+        font-size: 26px;   
+        margin: 40px  auto;
+        padding-left: 500px; 
+        font-family: "Microsoft Yahei", sans-serif;
+    }
+    #tab li {
+        float: left;
+        font-size: 26px;
+        cursor: pointer;      
+        padding: 0 10px;
+        overflow: hidden;
+    }
+    #part2{
+        height: 360px;
+        width: 1500px auto;
+        background: url(../images/bg1.jpg) no-repeat center;
+        font-family: "Microsoft Yahei", sans-serif;
+    }
+    #content {
+        border: 0px;
+        width: 1280px;
+        margin: 30px auto;
+    }
+    #content1{
+        width: 430px auto;
+        line-height: 20px;
+        float: left;  
+    }
+    #content2{
+        width: 430px auto;
+        line-height: 20px;
+        float: left;  
+    }
+    #content3{
+        width: 430px auto;
+        line-height: 20px;
+        float: left;  
+    }
+   /* #content ul {
+        width: 430px auto;
+        line-height: 20px;
+        padding: 0px 0px;
+        float: left;     
+    }*/
+    #content li{
+        height: 30px;
+        width: 400px auto;
+        background: url(../images/line.png) no-repeat left top;
+    }
+    /*重要内容*/
+    #content li {
+        display: block;
+        width: 410px;
+        margin: 20px 10px 60px 0px;
+        font-size: 16px;
+    }
+    .time {
+        text-align: center;
+        margin: 0px;
+        line-height: 20px;
+        float: left;
+    }
+    .fl {
+        float: right;
+    }
+    .day {
+        color: #8a1616;
+        font-size: 22px;
+        padding: 0 14px;
+    }
+    .year {
+        color: #333331;
+        font-size: 12px;
+    }
+
+    #leg{
+        background: #fafafa;
+        padding: 50px 0;
+    }
+    .common1 {
+        width: 1280px;
+        margin: 0 auto;
+    }
+    .title{
+        margin-bottom: 20px;
+    }
+    .title h2{
+        color: #333;
+        letter-spacing: 2px;
+    }
+    .title h2 span{
+        color: #a8151d;
+        border-bottom: #a8151d 3px solid;
+        padding-bottom: 8px;
+    }
+    .clear{
+        clear: both;
+    }
+    .lega ul li{
+        float: left;
+        width: 300px;
+        height: 57px;
+        padding: 10px 0;
+        font-size: 18px;
+        text-align: center;
+        line-height: 56px;
+        list-style: none;
+    }
+    .a1{
+        background: #3b7090;
+        line-height: 26px;
+        margin-right: 25px;
+    }
+    .a2{
+        background: #985054;
+        line-height: 56px;
+        margin-right: 25px;
+    }
+    .a3{
+        background: #aa8044;
+        line-height: 56px;
+        margin-right: 25px;
+    }
+    .a4{
+        background: #7095a7;
+        line-height: 56px;
+    }
+    .a1 a, .a2 a, .a3 a, .a4 a, .a5 a{
+        font-family: "Microsoft Yahei", sans-serif;
+        color: #fff;
+    }
+    #foot{ 
+        width: 100%;
+        height: 300px;
+        background:url(../images/footbg.jpg);
+    }
+    .common2{
+        padding: 90px 100px;
+    }
+    .address{
+    color: #fff;
+    line-height: 39px;
+    font-size: 16px;
+    }
+    .fl{
+    float: left;
+    }
+    .address p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 38px;
+    }
+    .footlogo{
+    padding: 0px 120px;
+    }
+    #one{
+        width: 220px;
+        text-align: right;
+        line-height: 35px;
+        float: right;
+        margin: -20px ;
+    }
+    #right-fixed-img-lists {
+        width: 89px;
+        position: fixed;
+        right: 0;
+        top: 180px;
+        z-index: 1000;
+    }
+    .right-fixed-img-lists img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+    img {
+        border: 0;
+    }
+    a {
+        text-decoration: none;
+        color: #333;
+        outline: none;
+    }
